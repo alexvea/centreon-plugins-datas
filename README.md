@@ -61,7 +61,7 @@ system.sysORLastChange.0 = 125642387
 system.sysORTable.sysOREntry.sysORID.1 = OID: .iso.org.dod.internet.snmpV2.snmpModules.snmpFrameworkMIB.snmpFrameworkMIBConformance.snmpFrameworkMIBCompliances.snmpFrameworkMIBCompliance
 system.sysORTable.sysOREntry.sysORID.2 = OID: .iso.org.dod.internet.snmpV2.snmpModules.snmpMPDMIB.snmpMPDMIBConformance.snmpMPDMIBCompliances.snmpMPDCompliance
 ````
-5)test snmpsimp with a data from centreon-plugins-datas :
+5)test snmpsimp with a data from centreon-plugins-datas (tips : the path of the snmprec/snmpwalk file is the same of the SNMP community) :
 ````
 # snmpwalk -Obentu -v2c -c "centreon-plugins-datas/src/hardware/ups/standard/rfc1628/snmp/input-lines" 10.25.15.161
 33.1.3.3.1.2.1 = 499
