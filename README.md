@@ -1,6 +1,6 @@
 # centreon-plugins-datas
 
-##Method to update centreon-plugins-datas folder in case of new centreon-plugins 
+## Method to update centreon-plugins-datas folder in case of new centreon-plugins 
 
 
 ````
