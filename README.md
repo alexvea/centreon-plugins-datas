@@ -1,5 +1,9 @@
 # centreon-plugins-datas
 
+## Description
+This repository includes datas that can be used by snmpsim (for SNMP protocol) or by any API mock server (for HTTP protocol) to simulate result for [Centreon plugins](https://github.com/centreon/centreon-plugins) .
+
+
 ## Method to update centreon-plugins-datas folder in case of new centreon-plugins 
 
 
